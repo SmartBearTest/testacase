@@ -24,7 +24,8 @@ NOTE: If you would like to run the Login step without as a standalone step pleas
   <con:testStep type="groovy" name="Groovy Script" id="ab639922-45e1-44ac-beab-e314dfb274bd">
     <con:settings/>
     <con:config>
-      <script/>
+      <script>def response = context.expand( '${Login#Response}' )
+log.info response</script>
     </con:config>
   </con:testStep>
   <con:testStep type="restrequest" name="Login" id="8c4c6e50-238e-4476-80dc-15d7b89fff4f">
