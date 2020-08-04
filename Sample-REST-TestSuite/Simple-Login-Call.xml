@@ -55,7 +55,7 @@ log.info response</script>
         <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
         <con:jmsPropertyConfig/>
         <con:parameters>
-          <con:entry key="password" value="1234"/>
+          <con:entry key="password" value="12398"/>
           <con:entry key="test" value="test2"/>
           <con:entry key="username" value="Login"/>
         </con:parameters>
