@@ -24,7 +24,14 @@
   </con:parameters>
   <con:method name="Login" id="8a2a74c2-299c-4af4-9ce4-548941aa6e5d" method="GET">
     <con:settings/>
-    <con:parameters/>
+    <con:parameters>
+      <con:parameter required="true">
+        <con:name>test</con:name>
+        <con:value/>
+        <con:style>QUERY</con:style>
+        <con:default/>
+      </con:parameter>
+    </con:parameters>
     <con:representation type="RESPONSE">
       <con:mediaType xsi:nil="true"/>
       <con:status>0</con:status>
@@ -217,6 +224,7 @@
       <con:parameterOrder>
         <con:entry>username</con:entry>
         <con:entry>password</con:entry>
+        <con:entry>test</con:entry>
       </con:parameterOrder>
       <con:environmentSpec>
         <con:entry environmentId="f27a7295-1f08-4642-a3be-7ae9878517f0">

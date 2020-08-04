@@ -50,11 +50,13 @@ NOTE: If you would like to run the Login step without as a standalone step pleas
         <con:jmsPropertyConfig/>
         <con:parameters>
           <con:entry key="password" value="Password"/>
+          <con:entry key="test" value=""/>
           <con:entry key="username" value="Login"/>
         </con:parameters>
         <con:parameterOrder>
           <con:entry>username</con:entry>
           <con:entry>password</con:entry>
+          <con:entry>test</con:entry>
         </con:parameterOrder>
         <con:environmentSpec>
           <con:entry environmentId="f27a7295-1f08-4642-a3be-7ae9878517f0">
