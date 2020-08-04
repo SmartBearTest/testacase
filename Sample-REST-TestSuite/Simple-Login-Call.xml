@@ -51,7 +51,7 @@ log.info response</script>
         <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
         <con:jmsPropertyConfig/>
         <con:parameters>
-          <con:entry key="password" value="Login123"/>
+          <con:entry key="password" value="1234"/>
           <con:entry key="username" value="Login"/>
         </con:parameters>
         <con:parameterOrder>
@@ -89,10 +89,6 @@ log.info response</script>
         </con:environmentSpec>
       </con:restRequest>
     </con:config>
-  </con:testStep>
-  <con:testStep type="assertionteststep" name="Assertion" id="6049b16d-eddd-474d-8fdf-ae02f60a0129">
-    <con:settings/>
-    <con:config xsi:type="con:AssertionTestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
   </con:testStep>
   <con:testStep type="VirtRunnerTestStep" name="StopService" id="e7ca5e17-6eda-4ec7-9628-3cc48017145d">
     <con:settings/>
