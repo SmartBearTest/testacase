@@ -21,6 +21,10 @@ NOTE: If you would like to run the Login step without as a standalone step pleas
       <action>run</action>
     </con:config>
   </con:testStep>
+  <con:testStep type="assertionteststep" name="Assertion" id="c69e86b9-cb77-4bc7-baed-d0a8b960ffe2">
+    <con:settings/>
+    <con:config xsi:type="con:AssertionTestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+  </con:testStep>
   <con:testStep type="groovy" name="Groovy Script" id="ab639922-45e1-44ac-beab-e314dfb274bd">
     <con:settings/>
     <con:config>
