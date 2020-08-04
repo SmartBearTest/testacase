@@ -56,7 +56,7 @@ log.info response</script>
         <con:jmsPropertyConfig/>
         <con:parameters>
           <con:entry key="password" value="1234"/>
-          <con:entry key="test" value="model"/>
+          <con:entry key="test" value="test1"/>
           <con:entry key="username" value="Login"/>
         </con:parameters>
         <con:parameterOrder>
